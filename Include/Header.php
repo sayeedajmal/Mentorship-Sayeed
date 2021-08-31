@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOOTSTRAP LEARNING</title>
+    <title>IT's My Blog</title>
 
     <link rel="stylesheet" type="text/css" href="/CSS/header.css">
     <link rel="stylesheet" type="text/css" href="/CSS/mainpage.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- BOOTSTRAP LINK -->
 
 <!--     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
