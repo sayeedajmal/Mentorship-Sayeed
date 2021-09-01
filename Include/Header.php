@@ -9,11 +9,11 @@
 
     <link rel="stylesheet" type="text/css" href="/CSS/header.css">
     <link rel="stylesheet" type="text/css" href="/CSS/mainpage.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/IMAGES/logo.png" type="image/x-icon">
     <!-- BOOTSTRAP LINK -->
 
-<!--     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
- -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 </head>
