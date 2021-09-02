@@ -104,16 +104,8 @@ h3 {
   padding-bottom: 30;
   border-radius: 50%;
 }
-.line {
-  display: block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 2.5rem;
-  border-radius: 20px;
-  top: 0.05rem;
-  border: 3px solid rgb(55, 55, 70);
-}
+
+.line > a,
 .images {
   top: 30%;
   display: inline-block;

@@ -19,7 +19,7 @@ html {
 }
 header > img {
   width: 98%;
-  margin-left: 7px;
+  margin-left: 1px;
   opacity: 0.4;
   height: 47vh;
   border: 3px solid black;
@@ -64,22 +64,26 @@ header > h3 {
   text-transform: capitalize;
   background-color: azure;
 }
-
+.first_product > h1,
+.second_product > h1,
+.third_product > h1 {
+  text-shadow: 0px 0px 10px white;
+  font-size: 0.5rem;
+}
 .first_product,
 .second_product,
 .third_product {
   display: inline-flex;
-  height: 3rem;
-  width: 2rem;
+  height: 5rem;
+  width: 5rem;
   border: 2px solid black;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   margin-bottom: 1rem;
-  background-color: rgba(8, 7, 7, 0.863);
-  border-radius: 10px;
   color: white;
-  font-size: 0.4rem;
+  box-shadow: 0px 0px 15px blue;
+  background-color: black;
 }
-@media screen and (min-width: 713px) {
+@media screen and (min-width: 412px) {
   .first_product,
   .second_product,
   .third_product {
@@ -90,6 +94,15 @@ header > h3 {
     margin-left: 1.5rem;
     margin-bottom: 1rem;
   }
+  .first_product > p,
+  .second_product > p,
+  .third_product > p {
+    text-align: center;
+    font-size: 0.2rem;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+    text-shadow: 0px 0px 10px white;
+  }
 }
 .first_product > p,
 .second_product > p,
@@ -98,11 +111,16 @@ header > h3 {
   padding-top: 1rem;
   font-size: 0.5rem;
   font-weight: bolder;
+  text-shadow: 0px 0px 10px white;
+}
+.second_product > p {
+  padding-left: 0.7rem;
 }
 #circle {
   position: absolute;
   display: block;
-  font-size: 3rem;
+  font-size: 2.9rem;
   padding-top: 2.8rem;
   padding-left: 3.34rem;
+  text-shadow: 0px 0px 10px white;
 }
