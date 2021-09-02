@@ -92,7 +92,7 @@ svg text {
   border-radius: 50%;
   border: 2px solid blue;
 }
-h3 {
+.contain > h3 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 0.5rem;
   text-align: center;

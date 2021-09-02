@@ -5,7 +5,7 @@ body {
 html {
   font-size: 4rem;
 }
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 500px) {
   html {
     font-size: 3.2rem;
   }
@@ -18,10 +18,11 @@ html {
   }
 }
 header > img {
-  width: 98%;
+  width: 99%;
   margin-left: 1px;
+  margin-right: 2px;
   opacity: 0.4;
-  height: 47vh;
+  height: 30vh;
   border: 3px solid black;
   border-radius: 0px 40px 0px 40px;
 }
@@ -48,6 +49,8 @@ header > h3 {
   font-size: 0.3rem;
   top: -1rem;
   padding-right: 15px;
+  color: blue;
+  text-shadow: 0px 0px 10px black;
 }
 .container {
   padding: 5px;
@@ -57,19 +60,27 @@ header > h3 {
   font-family: "Courier New", Courier, monospace;
   line-height: 0.4rem;
   font-size: 0.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+
 }
+
 .container > text {
   line-height: 0.6rem;
   color: blue;
   text-transform: capitalize;
   background-color: azure;
+  font-size: 0.4rem;
+  margin: 1rem;
 }
 .first_product > h1,
 .second_product > h1,
 .third_product > h1 {
   text-shadow: 0px 0px 10px white;
   font-size: 0.5rem;
-  font-family: 'Courier New', Courier, monospacey;
+  font-family: "Courier New", Courier, monospacey;
 }
 .first_product,
 .second_product,
@@ -81,10 +92,22 @@ header > h3 {
   margin-left: 1rem;
   margin-bottom: 1rem;
   color: white;
-  box-shadow: 0px 0px 15px blue;
   background-color: black;
 }
-@media screen and (min-width: 412px) {
+.first_product:hover,
+.second_product:hover,
+.third_product:hover {
+  display: inline-flex;
+  height: 5rem;
+  width: 5rem;
+  border: 2px solid black;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  background-color: black;
+  box-shadow: 0px 0px 20px blue;
+}
+@media screen and (min-width: 500px) {
   .first_product,
   .second_product,
   .third_product {
@@ -104,6 +127,20 @@ header > h3 {
     font-weight: bolder;
     text-shadow: 0px 0px 10px white;
   }
+  .first_product:hover,
+  .second_product:hover,
+  .third_product:hover {
+    display: inline-flex;
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid black;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 20px blue;
+    border-radius: 20px;
+  }
 }
 .first_product > p,
 .second_product > p,
@@ -113,7 +150,7 @@ header > h3 {
   font-size: 0.5rem;
   font-weight: bolder;
   text-shadow: 0px 0px 10px white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .second_product > p {
   padding-left: 0.7rem;
