@@ -54,7 +54,7 @@ svg text {
   margin-right: auto;
   margin-left: auto;
   letter-spacing: 3px;
-  animation: effect 6s infinite alternate;
+  animation: effect 7s infinite alternate;
 }
 @keyframes effect {
   0% {

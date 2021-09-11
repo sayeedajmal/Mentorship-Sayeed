@@ -1,0 +1,124 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+html {
+  font-size: 4rem;
+}
+
+section > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  border: 3px solid blue;
+  border-radius: 50%;
+  width: 1.2rem;
+  height: auto;
+}
+section {
+  border: 2px solid white;
+  width: 6rem;
+  height: 70vh;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  background-color: rgba(20, 18, 18, 0.795);
+  border-radius: 5%;
+  box-shadow: 20px 30px 10px #343d47;
+}
+section > h1 {
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 2%;
+  color: white;
+  text-shadow: 0px 0px 5px white;
+}
+section > input {
+  border: 2px solid blue;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 80%;
+  color: white;
+  font-size: 1.5rem;
+  background-color: black;
+  border-radius: 10px;
+}
+.fill {
+  display: block;
+  position: relative;
+  top: 5%;
+  width: 80%;
+  height: 0.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: lightblue;
+  border: 2px solid rgb(238, 53, 53);
+  font-size: 0.4rem;
+  color: black;
+  text-align: center;
+  outline: none;
+}
+.submit {
+  display: block;
+  position: relative;
+  top: 25%;
+  width: 40%;
+  height: 0.7rem;
+  margin-bottom: 1rem;
+  background-color: black;
+  border: 2px solid rgb(238, 53, 53);
+  font-size: 0.6rem;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 2.2rem;
+  }
+  section > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15%;
+    border: 3px solid blue;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: auto;
+  }
+  section > h1 {
+    position: relative;
+    font-size: 0.6rem;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3%;
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    font-size: 1rem;
+  }
+  section {
+    width: 70%;
+    height: 50vh;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+  }
+  .fill {
+    width: 80%;
+    height: 0.6rem;
+    font-size: 0.6rem;
+  }
+  .submit {
+    width: 4rem;
+    height: 1rem;
+    font-size: 0.8rem;
+  }
+}

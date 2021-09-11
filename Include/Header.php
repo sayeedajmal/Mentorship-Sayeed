@@ -25,7 +25,7 @@
             <img src="/IMAGES/avtar.jpg" class="avtar">
         </div>
         <!-- SAYEED TEXT -->
-        <a href="/index.php">
+        <a href="/Main.php">
             <svg>
                 <text x="25%" y="80%">SAYEED</text>
             </svg>

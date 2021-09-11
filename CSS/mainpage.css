@@ -1,17 +1,14 @@
 body {
   padding: 0;
   margin: 2px;
+  scroll-behavior: smooth;
 }
 html {
   font-size: 4rem;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 414px) {
   html {
     font-size: 3.2rem;
-  }
-  header > img {
-    width: auto;
-    height: 70vh;
   }
   .container > text {
     font-size: 0.5rem;
@@ -64,7 +61,6 @@ header > h3 {
   text-justify: inter-word;
   margin-left: 0.3rem;
   margin-right: 0.3rem;
-
 }
 
 .container > text {
@@ -106,8 +102,13 @@ header > h3 {
   color: white;
   background-color: black;
   box-shadow: 0px 0px 20px blue;
+  border-radius: 20px;
+  cursor: pointer;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 414px) {
+  header > img {
+    height: 50vh;
+  }
   .first_product,
   .second_product,
   .third_product {
@@ -139,7 +140,6 @@ header > h3 {
     color: white;
     background-color: black;
     box-shadow: 0px 0px 20px blue;
-    border-radius: 20px;
   }
 }
 .first_product > p,
@@ -162,4 +162,177 @@ header > h3 {
   padding-top: 2.8rem;
   padding-left: 3.34rem;
   text-shadow: 0px 0px 10px white;
+}
+
+@media screen and (max-width: 414px) {
+  .hill > img {
+    position: relative;
+    display: static;
+    height: 7rem;
+    width: 95%;
+    background-repeat: no;
+    opacity: 0.8;
+    box-shadow: 0px 0px 20px blue;
+
+  }
+  /*   .hill > h1 {
+    font-size: 0.5rem;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    right: -10px;
+    margin-top: -7rem;
+    padding-top: 30px;
+    color: rgb(240, 21, 21);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .hill > h4 {
+    display: block;
+    margin-top: 5.5rem;
+    font-size: 0.4rem;
+    text-align: right;
+  }
+  .hill > input {
+    display: block;
+    position: absolute;
+    margin-top: -4%;
+    right: 10%;
+    outline: none;
+    font-size: 0.45rem;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 5rem;
+    height: 7%;
+  }
+  .hill > input:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .shop_product {
+    font-family: Sen, sans-serif;
+    font-weight: bold;
+    font-size: 0.5rem;
+    margin-left: 3%;
+  }
+  .shop_product > h2 {
+    margin-top: -3%;
+  }
+  .clothes {
+    position: absolute;
+    display: block ruby;
+    margin-left: 5%;
+    width: 100%;
+  }
+  .cloth_names {
+    width: 30%;
+  }
+  .cloth_names > img {
+    width: 54%;
+    height: 57vh;
+    box-shadow: 0px 0px 10px blue;
+    border-radius: 20px;
+  }
+  .cloth_names > h4 {
+    font-size: 0.4rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin-left: 40%;
+  }
+  .cloth_names > input {
+    background-color: red;
+    outline: none;
+    border: 2px solid red;
+    color: white;
+    display: block;
+    margin-top: -2%;
+    margin-left: 40%;
+  } */
+}
+.hill > img {
+  position: relative;
+  display: static;
+  height: 7rem;
+  width: 95%;
+  background-repeat: no;
+  opacity: 0.8;
+  margin-left: 2%;
+  margin-right: 2%;
+  box-shadow: 0px 0px 20px blue;
+  border-radius: 20px;
+}
+.hill > h1,
+.hill > h4 {
+  font-size: 0.3rem;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  right: -10px;
+  margin-top: -7rem;
+  padding-top: 30px;
+  color: rgb(240, 21, 21);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-right: 01rem;
+  margin-left: 30%;
+}
+.hill > h4 {
+  display: block;
+  margin-left: 1rem;
+  font-size: 0.3rem;
+  text-align: right;
+  margin-top: -6rem;
+}
+.hill > input {
+  display: block;
+  position: absolute;
+  margin-top: -3rem;
+  right: 7%;
+  outline: none;
+  font-size: 0.3rem;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 3rem;
+  height: 4%;
+}
+.shop_product {
+  font-family: Sen, sans-serif;
+  font-weight: bold;
+  font-size: 0.3rem;
+  margin-left: 3%;
+}
+.shop_product > h2 {
+  margin-top: -3%;
+}
+.clothes {
+  position: absolute;
+  display: block;
+  width: 75%;
+  margin-left: 8%;
+}
+.cloth_names {
+  width: 100%;
+}
+.cloth_names > img {
+  width: 100%;
+  height: 40vh;
+  box-shadow: 0px 0px 10px blue;
+  border-radius: 20px;
+}
+.cloth_names > h4 {
+  font-size: 0.4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 40%;
+}
+.cloth_names > input {
+  background-color: red;
+  outline: none;
+  border: 2px solid red;
+  color: white;
+  display: block;
+  margin-top: -2%;
+  margin-left: 35%;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
