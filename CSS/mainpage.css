@@ -6,7 +6,7 @@ body {
 html {
   font-size: 4rem;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 712px) {
   html {
     font-size: 3.2rem;
   }
@@ -105,7 +105,7 @@ header > h3 {
   border-radius: 20px;
   cursor: pointer;
 }
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 712px) {
   header > img {
     height: 50vh;
   }
@@ -163,93 +163,7 @@ header > h3 {
   padding-left: 3.34rem;
   text-shadow: 0px 0px 10px white;
 }
-
-@media screen and (max-width: 414px) {
-  .hill > img {
-    position: relative;
-    display: static;
-    height: 7rem;
-    width: 95%;
-    background-repeat: no;
-    opacity: 0.8;
-    box-shadow: 0px 0px 20px blue;
-
-  }
-  /*   .hill > h1 {
-    font-size: 0.5rem;
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    right: -10px;
-    margin-top: -7rem;
-    padding-top: 30px;
-    color: rgb(240, 21, 21);
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-  }
-  .hill > h4 {
-    display: block;
-    margin-top: 5.5rem;
-    font-size: 0.4rem;
-    text-align: right;
-  }
-  .hill > input {
-    display: block;
-    position: absolute;
-    margin-top: -4%;
-    right: 10%;
-    outline: none;
-    font-size: 0.45rem;
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 5rem;
-    height: 7%;
-  }
-  .hill > input:hover {
-    background-color: red;
-    color: white;
-  }
-
-  .shop_product {
-    font-family: Sen, sans-serif;
-    font-weight: bold;
-    font-size: 0.5rem;
-    margin-left: 3%;
-  }
-  .shop_product > h2 {
-    margin-top: -3%;
-  }
-  .clothes {
-    position: absolute;
-    display: block ruby;
-    margin-left: 5%;
-    width: 100%;
-  }
-  .cloth_names {
-    width: 30%;
-  }
-  .cloth_names > img {
-    width: 54%;
-    height: 57vh;
-    box-shadow: 0px 0px 10px blue;
-    border-radius: 20px;
-  }
-  .cloth_names > h4 {
-    font-size: 0.4rem;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    margin-left: 40%;
-  }
-  .cloth_names > input {
-    background-color: red;
-    outline: none;
-    border: 2px solid red;
-    color: white;
-    display: block;
-    margin-top: -2%;
-    margin-left: 40%;
-  } */
-}
+/* HILL IMAGE AND IT'S PRODUCT */
 .hill > img {
   position: relative;
   display: static;
@@ -271,7 +185,7 @@ header > h3 {
   right: -10px;
   margin-top: -7rem;
   padding-top: 30px;
-  color: rgb(240, 21, 21);
+  color: crimson;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-right: 01rem;
   margin-left: 30%;
@@ -293,6 +207,7 @@ header > h3 {
   background-color: white;
   border: 2px solid black;
   border-radius: 10px;
+  color: red;
   width: 3rem;
   height: 4%;
 }
@@ -306,17 +221,17 @@ header > h3 {
   margin-top: -3%;
 }
 .clothes {
-  position: absolute;
   display: block;
   width: 75%;
-  margin-left: 8%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .cloth_names {
   width: 100%;
 }
 .cloth_names > img {
   width: 100%;
-  height: 40vh;
+  height: 6rem;
   box-shadow: 0px 0px 10px blue;
   border-radius: 20px;
 }
@@ -335,4 +250,67 @@ header > h3 {
   margin-left: 35%;
   margin-bottom: 20px;
   border-radius: 10px;
+  width: 2rem;
+  height: 30px;
+}
+/*  DESKTOP VIEW */
+@media screen and (min-width: 712px) {
+  .hill > img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 9rem;
+    border-radius: 0px;
+  }
+  .hill > h1,
+  .hill > h4 {
+    font-size: 0.7rem;
+    margin-left: 3rem;
+    text-align: right;
+    margin-right: 1rem;
+    margin-top: -9rem;
+    color: white;
+    text-shadow: 0px 0px 5px blue;
+  }
+  .hill > h4 {
+    display: block;
+    margin-left: 5rem;
+    font-size: 0.4rem;
+    text-align: right;
+    margin-top: -6rem;
+  }
+  .hill > input {
+    display: block;
+    right: 7%;
+    width: 4rem;
+    height: 6%;
+    outline: none;
+    color: blue;
+    font-size: 0.4rem;
+    margin-top: -3rem;
+    position: absolute;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+  }
+  .shop_product {
+    font-family: Sen, sans-serif;
+    font-weight: bold;
+    font-size: 0.5rem;
+    margin-left: 2%;
+  }
+  .shop_product > h2 {
+    margin-top: -3%;
+  }
+  .clothes {
+    display: block ruby;
+    width: 30%;
+    margin-left: 2%;
+  }
+  .cloth_names > img {
+    width: 100%;
+    height: 6rem;
+    box-shadow: 0px 0px 10px blue;
+    border-radius: 20px;
+  }
 }
