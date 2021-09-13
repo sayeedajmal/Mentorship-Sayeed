@@ -67,6 +67,6 @@ include "Include/Header.php";
                 <input type="button" value="Details" />
             </div>
         </div>
-
+        <input class="all_products" type="button" value="View All Products" />
     </section>
 </body>
