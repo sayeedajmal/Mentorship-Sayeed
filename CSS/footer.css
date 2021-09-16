@@ -1,0 +1,50 @@
+footer {
+  background-color: #222;
+  width: 98%;
+  height: 4rem;
+  border-radius: 5px 6px 20px 20px;
+  bottom: 0rem;
+  position: absolute;
+}
+
+.main_logo {
+  width: 1.2rem;
+  display: block;
+  padding-left: 7%;
+  padding-top: 8%;
+}
+.contact_logo {
+  display: block;
+  position: relative;
+  width: 5%;
+  float: right;
+  padding-right: 0.5rem;
+  top: -1rem;
+}
+.main_icon > text {
+  font-size: 0.2rem;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin-top: 0.8rem;
+}
+.mention {
+  text-decoration: none;
+  color: white;
+  font-size: 0.3rem;
+  text-align: center;
+}
+@media screen and (min-width: 835px) {
+  footer {
+    width: 98%;
+    height: 4rem;
+    position: relative;
+    display: block;
+    margin-top: 9rem;
+    border-radius: 5px 6px 20px 20px;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
