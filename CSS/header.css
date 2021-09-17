@@ -5,13 +5,8 @@ body {
 html {
   font-size: 4rem;
 }
-@media screen and (max-width: 412px) {
-  html {
-    font-size: 3.2rem;
-  }
-  svg {
-    width: 20%;
-  }
+.fas {
+  color: black;
 }
 .nevbar {
   position: relative;
@@ -19,13 +14,79 @@ html {
   box-shadow: 0px 10px 15px #1760ec;
   border: 5px solid rgb(235, 17, 17);
 }
-.links {
-  font-size: 0.55rem;
+/* ============================MOBILE NEVBAR======================================= */
+.mobile_navbar {
+  font-size: 1.5rem;
+  float: right;
+}
+.mobile_navbar_item > img {
+  height: 0.5rem;
+  width: 0.5rem;
+  display: block;
+  top: 0.3rem;
   position: absolute;
+  right: 0.3rem;
+}
+.mobile_navbar_item {
+  position: relative;
+}
+.mobile_navbar_dropdown {
+  background-color: rgb(50, 28, 248);
+  position: fixed;
+  top: 0.8rem;
+  opacity: 0;
+  width: 100vw;
+  transform: scale(0.3);
+  transform-origin: top right;
+  transition: transform 0.4s, opacity 0.2s;
+  display: block;
+  height: 100vh;
+  text-align: center;
+  left: 0rem;
+}
+.mobile_navbar_dropdown > ul {
+  list-style-type: none;
+  padding: 8px 0px;
+}
+.mobile_navbar_item:hover .mobile_navbar_dropdown {
+  opacity: 1;
+  transform: scale(1);
+}
+/* ==============================END OF MOBILE NAVBAR============================== */
+.fas {
+  font-size: 0.5rem;
+}
+.mobile_links {
+  display: block;
+  font-size: 0.4rem;
+  float: right;
+  position: fixed;
   display: block;
   right: 0.2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  top: 0.15rem;
+  top: 0.5rem;
+}
+.links {
+  display: none;
+}
+@media screen and (min-width: 835px) {
+  html {
+    font-size: 3.2rem;
+  }
+  svg {
+    width: 20%;
+  }
+  .mobile_navbar {
+    display: none;
+  }
+  .links {
+    font-size: 0.55rem;
+    position: absolute;
+    display: block;
+    right: 0.2rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    top: 0.15rem;
+  }
 }
 .avtar {
   border-radius: 50%;

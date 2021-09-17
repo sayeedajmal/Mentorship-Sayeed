@@ -31,7 +31,24 @@
             </svg>
         </a>
 
-        <!-- LINKS -->
+
+        <div class="mobile_navbar">
+            <div class="mobile_navbar_item">
+                <img src="/IMAGES/menu.png">
+                <div class="mobile_navbar_dropdown">
+
+                    <ul>
+                        <a style="text-decoration: none;" href="#">
+                            <li>Info</li>
+                        </a>
+                        <li>About</li>
+                        <li>Data</li>
+                        <li>Contact</li>
+                        <li>Shop</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="links">
             <a href="/contact.php">Contact</a>
         </div>
