@@ -14,6 +14,3 @@ include "Include/Header.php";
 
     </div>
 </body>
-<?php
-require "Include/Footer.php";
-?>
