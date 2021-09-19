@@ -1,0 +1,84 @@
+.greenleaf {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  opacity: 0.6;
+}
+@media screen and (min-width: 814px) {
+  .greenleaf {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+  }
+}
+.green > h5 {
+  position: relative;
+  display: block;
+  top: -9rem;
+  font-size: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  color: white;
+  font-family: sen;
+}
+.green > p {
+  font-size: 0.25rem;
+  position: relative;
+  top: -9rem;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 0.5rem;
+  margin-right: 3rem;
+  font-family: sen;
+}
+.green > button {
+  outline: none;
+  border: 2px solid white;
+  background-color: transparent;
+  display: block;
+  position: relative;
+  bottom: 7.5rem;
+  left: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 0.1rem;
+  border-radius: 5px;
+  font-family: sen;
+}
+.business {
+  display: block;
+  position: relative;
+  border: 2px solid blue;
+  top: -5rem;
+}
+.business > h4,
+.business > h6 {
+  font-size: 0.3rem;
+  font-family: sen;
+  text-transform: uppercase;
+  text-align: center;
+}
+.business > h6 {
+  margin-top: -0.1rem;
+  font-size: 0.5rem;
+  font-weight: bold;
+  color: rgba(36, 34, 34, 0.8);
+}
+.lead_time {
+  display: block;
+  position: relative;
+  color: rgb(29, 29, 29);
+}
+.icons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.discriptions {
+  display: block;
+  top: -0.9rem;
+  position: relative;
+}

@@ -71,7 +71,7 @@ html {
 }
 @media screen and (min-width: 835px) {
   html {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
   }
   svg {
     width: 20%;
@@ -80,12 +80,26 @@ html {
     display: none;
   }
   .links {
-    font-size: 0.55rem;
+    font-size: 0.4rem;
     position: absolute;
     display: block;
-    right: 0.2rem;
+    right: 0.8rem;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    top: 0.15rem;
+    top: 0.3rem;
+  }
+  .links > a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 0.2rem;
+  }
+  .links > a:hover {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 0.1rem;
+  }
+  svg text {
+    font-size: 0.8rem;
   }
 }
 .avtar {
@@ -103,8 +117,9 @@ html {
 svg {
   position: relative;
   height: 45px;
-  width: 50%;
-  left: 1rem;
+  width: 33%;
+  left: 3rem;
+  margin-left: -1rem;
 }
 svg text {
   font-family: Georgia, "Times New Roman", Times, serif;

@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" type="text/css" href="/CSS/header.css">
     <link rel="stylesheet" type="text/css" href="/CSS/mainpage.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/About.css">
     <link rel="icon" href="/IMAGES/logo.png" type="image/x-icon">
     <!-- BOOTSTRAP LINK -->
 
@@ -27,11 +28,11 @@
         <!-- SAYEED TEXT -->
         <a href="/Main.php">
             <svg>
-                <text x="25%" y="80%">SAYEED</text>
+                <text y="80%">SAYEED</text>
             </svg>
         </a>
 
-
+        <!-- MOBILE NAVIGATION BAR -->
         <div class="mobile_navbar">
             <div class="mobile_navbar_item">
                 <img src="/IMAGES/menu.png">
@@ -49,7 +50,12 @@
                 </div>
             </div>
         </div>
+        <!-- DESKTOP NAVIGATION BAR -->
         <div class="links">
+            <a href="/Main.php">Home</a>
+            <a href="/About.php">About</a>
+            <a href="/Data.php">Data</a>
+            <a href="/Shop.php">Shop</a>
             <a href="/contact.php">Contact</a>
         </div>
 
