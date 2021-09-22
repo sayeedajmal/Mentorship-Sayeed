@@ -39,10 +39,7 @@
                 <div class="mobile_navbar_dropdown">
 
                     <ul>
-                        <a style="text-decoration: none;" href="#">
-                            <li>Info</li>
-                        </a>
-                        <li>About</li>
+                        <li><a href="/About.php">About</a></li>
                         <li>Data</li>
                         <li>Contact</li>
                         <li>Shop</li>

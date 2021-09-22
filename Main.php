@@ -12,8 +12,7 @@ include "Include/Header.php";
     <section>
         <!-- SOME PARAGRAPH -->
         <div class="container">
-            <text>Hi, I'm Sayeed Ajmal. The Creater of This Blog.
-                Here I am Showing Some Clothes.You have to Choose Only One of Them.</text>
+            <text>Hi, I'm Sayeed Ajmal. The Creater of This Blog.This Is A Clothes Store</text>
         </div>
 
         <div class="center">

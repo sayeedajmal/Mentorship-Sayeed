@@ -24,7 +24,7 @@ header > img {
   border-radius: 0px 40px 0px 40px;
   display: block;
   float: left;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 header > h1 {
   top: 3rem;
@@ -43,36 +43,28 @@ header > h1 {
 }
 
 header > h3 {
-  display: block;
-  position: relative;
-  text-align: right;
   font-size: 0.3rem;
-  top: -1rem;
   padding-right: 15px;
   color: blue;
   text-shadow: 0px 0px 10px black;
+  margin-top: -1rem;
+  float: right;
 }
 .container {
-  padding: 5px;
-  display: block;
-  position: relative;
-  top: -60px;
-  font-family: "Courier New", Courier, monospace;
-  line-height: 0.4rem;
-  font-size: 0.5rem;
-  text-align: justify;
-  text-justify: inter-word;
-  margin-left: 0.3rem;
-  margin-right: 0.3rem;
+  height: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 0.5rem;
 }
-
 .container > text {
-  line-height: 0.6rem;
+  line-height: 0.5rem;
   color: blue;
+  font-family: "Courier New", Courier, monospace;
   text-transform: capitalize;
-  background-color: azure;
   font-size: 0.4rem;
-  margin: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-top: -0.5rem;
+  display: block;
 }
 .center {
   display: block;
@@ -98,23 +90,9 @@ header > h3 {
   margin-bottom: 1rem;
   color: white;
   background-color: #222;
-}
-/* .first_product:hover,
-.second_product:hover,
-.third_product:hover {
-  display: block;
-  height: 5rem;
-  width: 5rem;
-  border: 2px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1rem;
-  color: white;
-  background-color: #222;
-  box-shadow: 0px 0px 20px blue;
   border-radius: 20px;
-  cursor: pointer;
-} */
+}
+
 /* HEADER IMAGE AND PRODUCTS  */
 @media screen and (min-width: 835px) {
   header > img {
@@ -420,7 +398,7 @@ header > h3 {
     border: 2px solid black;
     box-shadow: 0px 0px 10px 10px white;
     border-radius: 14px;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     height: 65%;
   }
   .shop_local > h1 {

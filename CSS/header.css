@@ -5,6 +5,10 @@ body {
 html {
   font-size: 4rem;
 }
+header {
+  border: 2px solid blue;
+  height: 0rem;
+}
 .fas {
   color: black;
 }
@@ -31,11 +35,12 @@ html {
   position: relative;
 }
 .mobile_navbar_dropdown {
-  background-color: rgb(50, 28, 248);
+  background-color: black;
   position: fixed;
-  top: 0.8rem;
+  top: 1.5rem;
   opacity: 0;
   width: 100vw;
+  color: white;
   transform: scale(0.3);
   transform-origin: top right;
   transition: transform 0.4s, opacity 0.2s;
@@ -47,6 +52,19 @@ html {
 .mobile_navbar_dropdown > ul {
   list-style-type: none;
   padding: 8px 0px;
+  color: white;
+  margin-top: 75%;
+}
+.mobile_navbar_dropdown > ul > li {
+  color: white;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+.mobile_navbar_dropdown > ul > li > a {
+  text-decoration: none;
+}
+.mobile_navbar_dropdown > ul > li > a:visited {
+  color: white;
 }
 .mobile_navbar_item:hover .mobile_navbar_dropdown {
   opacity: 1;
