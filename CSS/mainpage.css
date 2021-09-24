@@ -15,7 +15,7 @@ html {
   }
 }
 header > img {
-  width: 98%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   opacity: 0.4;
@@ -96,7 +96,7 @@ header > h3 {
 /* HEADER IMAGE AND PRODUCTS  */
 @media screen and (min-width: 835px) {
   header > img {
-    height: 50vh;
+    height: 60vh;
   }
   .first_product,
   .second_product,
@@ -392,7 +392,7 @@ header > h3 {
   .my_pic {
     position: absolute;
     display: block;
-    width: 25%;
+    width: 4rem;
     float: right;
     margin-left: 15%;
     border: 2px solid black;

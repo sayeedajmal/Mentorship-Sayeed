@@ -5,18 +5,10 @@
   height: 60vh;
   opacity: 0.6;
 }
-@media screen and (min-width: 814px) {
-  .greenleaf {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 50vh;
-  }
-}
 .green > h5 {
-  position: relative;
+  position: absolute;
   display: block;
-  top: -9rem;
+  top: 2rem;
   font-size: 0.5rem;
   margin-left: 1rem;
   margin-right: 2rem;
@@ -25,8 +17,8 @@
 }
 .green > p {
   font-size: 0.25rem;
-  position: relative;
-  top: -9rem;
+  position: absolute;
+  top: 4.5rem;
   color: white;
   font-weight: bold;
   text-align: left;
@@ -39,9 +31,9 @@
   border: 2px solid white;
   background-color: transparent;
   display: block;
-  position: relative;
+  position: absolute;
   bottom: 7.5rem;
-  left: 10px;
+  left: 10%;
   color: white;
   font-weight: bold;
   padding: 0.1rem;
@@ -50,22 +42,24 @@
 }
 .business {
   display: block;
-  position: relative;
+  position: absolute;
   border: 2px solid blue;
-  top: -5rem;
+  top: 11rem;
 }
-.business > h4,
-.business > h6 {
+.lead_time,
+.warrenty,
+.discriptions {
   font-size: 0.3rem;
   font-family: sen;
   text-transform: uppercase;
   text-align: center;
 }
-.business > h6 {
+.warrenty {
   margin-top: -0.1rem;
   font-size: 0.5rem;
   font-weight: bold;
   color: rgba(36, 34, 34, 0.8);
+  text-align: center;
 }
 .lead_time {
   display: block;
@@ -81,4 +75,70 @@
   display: block;
   top: -0.9rem;
   position: relative;
+}
+.Main_outdoor {
+  color: rgba(36, 34, 34, 0.8);
+  text-align: center;
+  font-size: 0.5rem;
+}
+/* DESKTOP VIEW =========================== */
+@media screen and (min-width: 814px) {
+  .greenleaf {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+  }
+  .green > h5 {
+    font-size: 0.7rem;
+    position: absolute;
+    display: block;
+  }
+  .green > p {
+    margin-left: 1rem;
+    margin-right: 7rem;
+  }
+  .green > button {
+    bottom: 2.5rem;
+  }
+  .green > button:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+  }
+  .business {
+    top: 9rem;
+  }
+  .about_column {
+    border: 1px solid rgba(36, 34, 34, 0.8);
+    display: inline-grid;
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 0.5rem;
+  }
+  .about_column:hover {
+    background-color: rgba(36, 34, 34, 0.8);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: background-color 0.8s;
+  }
+
+  .discriptions {
+    display: block;
+    top: 2.1rem;
+    position: absolute;
+    font-size: 0.25rem;
+  }
+  .warrenty {
+    margin-top: -0.5rem;
+    font-size: 0.5rem;
+  }
+  .Main_outdoor {
+    color: rgba(36, 34, 34, 0.8);
+    text-align: center;
+    font-size: 0.8rem;
+  }
 }
