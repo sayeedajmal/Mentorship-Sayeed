@@ -4,33 +4,33 @@ include "Include/Header.php";
 
 <body>
     <header>
-        <img src="/IMAGES/display.png">
-        <h1>CLOTHS STORE</h1>
+        <img src="/IMAGES/display.webp">
+        <h1>MENTORSHIP</h1>
         <h3>by SAYEED AJMAL</h3>
     </header>
 
     <section>
         <!-- SOME PARAGRAPH -->
         <div class="container">
-            <text>Hi, I'm Sayeed Ajmal. The Creater of This Blog.This Is A Clothes Store</text>
+            <text>Hi Devs, I'm Sayeed Ajmal. I am Front-End & Back-End Developer. Here's My All Projects.</text>
         </div>
 
         <div class="center">
             <div class="first_product">
                 <h1>01</h1>
-                <p>SHOP PRODUCTS</p>
+                <p>BANKING SYSTEM</p>
                 <i class="far fa-circle" id="circle"></i>
 
             </div>
             <div class="second_product">
                 <h1>02</h1>
-                <p>DONATE</p>
+                <p>BIODATA</p>
                 <i class="far fa-heart" id="circle"></i>
 
             </div>
             <div class="third_product">
                 <h1>03</h1>
-                <p>BUY GIFT CARDS</p>
+                <p>PERFECTION JAVA</p>
                 <i class="far fa-square" id="circle"></i>
 
             </div>
@@ -38,14 +38,14 @@ include "Include/Header.php";
         </div>
 
         <div class="hill">
-            <img src="/IMAGES/Hill.jpg" />
-            <h1>How we're keeping you safe during COVID-19</h1>
-            <h4>As an outdoor shop, we’ve taken precautionary measures to ensure the safety of all our customers and team members.</h4>
-            <input type="button" value="Read Our Statement" />
+            <img src="/IMAGES/gitback.png" />
+            <h1>You Can Contribute in My Project.</h1>
+            <h4>Genius Developers Contribute in Projects. Because Contributing In Projects Make You Perfect. .</h4>
+            <input type="button" value="Connect With Me" />
         </div>
         <div class="shop_product">
-            <h5>SHOP PRODUCTS</h5>
-            <h2>Open 24/7/365</h2>
+            <h5>Developer's List</h5>
+            <h2>Connect with Devs</h2>
         </div>
         <div class="clothes">
             <div class="cloth_names">

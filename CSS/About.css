@@ -1,48 +1,42 @@
 .greenleaf {
   display: block;
-  position: relative;
   width: 100%;
   height: 60vh;
-  opacity: 0.6;
+  float: none;
 }
 .green > h5 {
-  position: absolute;
   display: block;
-  top: 2rem;
+  margin-top: -8rem;
   font-size: 0.5rem;
   margin-left: 1rem;
   margin-right: 2rem;
   color: white;
   font-family: sen;
+  float: none;
 }
 .green > p {
   font-size: 0.25rem;
-  position: absolute;
-  top: 4.5rem;
   color: white;
   font-weight: bold;
   text-align: left;
-  margin-left: 0.5rem;
-  margin-right: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 2rem;
   font-family: sen;
 }
-.green > button {
-  outline: none;
-  border: 2px solid white;
+.shop_Merch {
   background-color: transparent;
-  display: block;
-  position: absolute;
-  top: 7.5rem;
-  left: 10%;
   color: white;
   font-weight: bold;
   padding: 0.1rem;
   border-radius: 5px;
   font-family: sen;
+  border: 4px solid white;
+  outline: none;
+  margin-left: 0.5rem;
 }
 .business {
   display: block;
-  position: absolute;
+  margin-top: 3rem;
   border: 2px solid blue;
 }
 .lead_time,
@@ -136,7 +130,7 @@
     margin-top: -0.5rem;
     font-size: 0.5rem;
   }
-  .warrenty:hover{
+  .warrenty:hover {
     color: white;
   }
   .Main_outdoor {

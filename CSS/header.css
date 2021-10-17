@@ -59,6 +59,7 @@ header {
   color: white;
   font-size: 1rem;
   padding-bottom: 0.5rem;
+  font-family: 'Sen';
 }
 
 .mobile_navbar_dropdown > ul > li > a:visited {
@@ -69,6 +70,7 @@ header {
   transform: scale(1);
 }
 /* ==============================END OF MOBILE NAVBAR============================== */
+
 .fas {
   font-size: 0.5rem;
 }
@@ -113,9 +115,13 @@ header {
     background-color: black;
     color: white;
     padding: 0.1rem;
+    transition: background-color 1s;
   }
   svg text {
     font-size: 0.8rem;
+  }
+  .mobile_navbar_dropdown > ul > li > a:visited {
+    color: white;
   }
 }
 .avtar {
@@ -159,9 +165,8 @@ svg text {
 }
 
 .contain {
-  position: relative;
+  margin-top: 1rem;
   display: block;
-  top: 0.9rem;
   width: 5rem;
   height: 8rem;
   background: darkcyan;
@@ -174,12 +179,10 @@ svg text {
   margin-bottom: -8rem;
 }
 .img {
-  top: 4%;
   display: block;
-  position: relative;
+  margin-top: 0.2rem;
   height: 15%;
   width: auto;
-  border-radius: 60%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
@@ -189,7 +192,6 @@ svg text {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 0.5rem;
   text-align: center;
-  position: relative;
   border-radius: 20px;
   top: 0.2rem;
   color: white;

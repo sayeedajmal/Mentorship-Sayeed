@@ -39,6 +39,7 @@
                 <div class="mobile_navbar_dropdown">
 
                     <ul>
+                        <li><a href="/Main.php">Home</a></li>
                         <li><a href="/About.php">About</a></li>
                         <li>Data</li>
                         <li><a href="/contact.php">Contact</a></li>
