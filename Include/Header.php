@@ -41,7 +41,7 @@
                     <ul>
                         <li><a href="/About.php">About</a></li>
                         <li>Data</li>
-                        <li>Contact</li>
+                        <li><a href="/contact.php">Contact</a></li>
                         <li>Shop</li>
                     </ul>
                 </div>

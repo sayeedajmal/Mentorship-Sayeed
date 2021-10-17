@@ -37,7 +37,7 @@ header {
 .mobile_navbar_dropdown {
   background-color: black;
   position: fixed;
-  top: 1.5rem;
+  top: 1.4rem;
   opacity: 0;
   width: 100vw;
   color: white;
@@ -60,9 +60,7 @@ header {
   font-size: 1rem;
   padding-bottom: 0.5rem;
 }
-.mobile_navbar_dropdown > ul > li > a {
-  text-decoration: none;
-}
+
 .mobile_navbar_dropdown > ul > li > a:visited {
   color: white;
 }
