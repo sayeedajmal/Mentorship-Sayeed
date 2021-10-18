@@ -109,6 +109,7 @@
     display: inline-grid;
     position: relative;
     width: 4rem;
+    transition: transform 0.2s;
     height: 4rem;
     margin-left: 0.5rem;
   }
@@ -118,6 +119,9 @@
     border: 2px solid white;
     border-radius: 20px;
     transition: background-color 0.8s;
+    transform: scale(1.2);
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
   }
 
   .discriptions {

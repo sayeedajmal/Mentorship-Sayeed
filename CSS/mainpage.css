@@ -71,16 +71,16 @@ header > h3 {
   margin-left: auto;
   margin-right: auto;
 }
-.first_product > h1,
-.second_product > h1,
-.third_product > h1 {
+.first_application > h1,
+.second_application > h1,
+.third_application > h1 {
   text-shadow: 0px 0px 10px white;
   font-size: 0.5rem;
   font-family: "Courier New", Courier, monospacey;
 }
-.first_product,
-.second_product,
-.third_product {
+.first_application,
+.second_application,
+.third_application {
   display: block;
   height: 5rem;
   width: 5rem;
@@ -98,9 +98,9 @@ header > h3 {
   header > img {
     height: 60vh;
   }
-  .first_product,
-  .second_product,
-  .third_product {
+  .first_application,
+  .second_application,
+  .third_application {
     display: inline-flex;
     height: 5rem;
     width: 5rem;
@@ -108,18 +108,18 @@ header > h3 {
     margin-left: 1.5rem;
     margin-bottom: 1rem;
   }
-  .first_product > p,
-  .second_product > p,
-  .third_product > p {
+  .first_application > p,
+  .second_application > p,
+  .third_application > p {
     text-align: center;
     font-size: 0.2rem;
     padding-bottom: 2rem;
     font-weight: bolder;
     text-shadow: 0px 0px 10px white;
   }
-  .first_product:hover,
-  .second_product:hover,
-  .third_product:hover {
+  .first_application:hover,
+  .second_application:hover,
+  .third_application:hover {
     display: inline-flex;
     height: 5rem;
     width: 5rem;
@@ -137,16 +137,16 @@ header > h3 {
     margin-top: 2rem;
   }
 }
-.first_product > p,
-.second_product > p,
-.third_product > p {
+.first_application > p,
+.second_application > p,
+.third_application > p {
   text-align: center;
   font-size: 0.5rem;
   font-weight: bolder;
   text-shadow: 0px 0px 10px white;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.second_product > p {
+.second_application > p {
   padding-left: 0.7rem;
 }
 #circle {
@@ -156,7 +156,7 @@ header > h3 {
   text-shadow: 0px 0px 10px white;
 }
 /* GITHUB AND IT'S MAIN LINK */
-.hill > img {
+.gitback > img {
   position: relative;
   height: 7rem;
   width: 80%;
@@ -166,11 +166,11 @@ header > h3 {
   box-shadow: 15px 10px 5px black;
   display: block;
 }
-.hill > image:hover {
+.gitback > image:hover {
   transition: box-shadow 0.8s;
 }
-.hill > h1,
-.hill > h4 {
+.gitback > h1,
+.gitback > h4 {
   font-size: 0.3rem;
   display: flex;
   position: absolute;
@@ -179,12 +179,12 @@ header > h3 {
   margin-top: -7rem;
   padding-top: 30px;
   color: #fff;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 5px white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-right: 01rem;
   margin-left: 30%;
 }
-.hill > h4 {
+.gitback > h4 {
   display: block;
   margin-left: 1rem;
   font-size: 0.3rem;
@@ -193,7 +193,7 @@ header > h3 {
   color: white;
   text-shadow: 2px 2px 10px blue;
 }
-.hill > input {
+.gitback > input {
   display: block;
   position: absolute;
   margin-top: -2rem;
@@ -207,16 +207,16 @@ header > h3 {
   width: 3rem;
   height: 4%;
 }
-.shop_product {
+.devs_list {
   font-family: Sen, sans-serif;
   font-weight: bold;
   font-size: 0.3rem;
   margin-left: 3%;
 }
-.shop_product > h2 {
+.devs_list > h2 {
   margin-top: -3%;
 }
-.clothes {
+.devs {
   display: block;
   width: 5rem;
   margin-left: auto;
@@ -224,21 +224,21 @@ header > h3 {
   margin-bottom: 1rem;
 }
 
-.cloth_names > img {
+.devs_information > img {
   display: block ruby;
   width: 100%;
   height: 6rem;
   box-shadow: 0px 0px 10px blue;
   border-radius: 20px;
 }
-.cloth_names > h4 {
-  font-size: 0.4rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+.devs_information > h4 {
+  font-size: 0.5rem;
+  font-family: "Sen";
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-.cloth_names > input {
+.devs_information > input {
   background-color: red;
   outline: none;
   border: 2px solid red;
@@ -253,17 +253,17 @@ header > h3 {
   margin-left: auto;
   margin-right: auto;
 }
-/* HILL IMAGE AND IT'S TEXT  DESKTOP VIEW  */
+/* gitback IMAGE AND IT'S TEXT  DESKTOP VIEW  */
 @media screen and (min-width: 835px) {
-  .hill > img {
+  .gitback > img {
     padding: 0;
     margin: 0;
     width: 100%;
     height: 9rem;
     border-radius: 0px;
   }
-  .hill > h1,
-  .hill > h4 {
+  .gitback > h1,
+  .gitback > h4 {
     font-size: 0.7rem;
     margin-left: 3rem;
     text-align: right;
@@ -272,45 +272,45 @@ header > h3 {
     color: white;
     text-shadow: 0px 0px 5px blue;
   }
-  .hill > h4 {
+  .gitback > h4 {
     display: block;
     margin-left: 5rem;
     font-size: 0.4rem;
     text-align: right;
     margin-top: -6rem;
   }
-  .hill > input {
-    display: block;
-    right: 7%;
+  .gitback > input {
     width: 4rem;
     height: 6%;
     outline: none;
-    color: blue;
+    color: red;
     font-size: 0.4rem;
     margin-top: -3rem;
     position: absolute;
     border-radius: 10px;
     background-color: white;
-    border: 2px solid black;
+    border: 2px solid red;
     cursor: pointer;
+    box-shadow: 0px 0px 10px white;
   }
-  .shop_product {
+  .devs_list {
     font-family: Sen, sans-serif;
     font-weight: bold;
     font-size: 0.5rem;
     margin-left: 2%;
   }
-  .shop_product > h2 {
-    margin-top: -3%;
+  .devs_list > h2 {
+    margin-top: -6%;
   }
 
   /* ================================ */
-  .clothes {
+  .devs {
+    margin-top: -1rem;
     display: inline-block;
     width: 100%;
     margin-left: 2rem;
   }
-  .cloth_names {
+  .devs_information {
     display: inherit;
     /* margin-left: 0.5rem;
     margin-right: auto;
@@ -321,7 +321,7 @@ header > h3 {
 }
 
 /* ===================================== */
-.cloth_names > img {
+.devs_information > img {
   margin-top: 1rem;
   width: 5rem;
   height: 6rem;
@@ -329,23 +329,24 @@ header > h3 {
   border-radius: 20px;
 }
 
-.all_products {
+.all_devs {
   color: white;
   border-radius: 10px;
   background-color: #222;
-  border: 2px solid #222;
+  border: 2px solid #fff;
   outline: none;
   outline-offset: 0ch;
   width: 4rem;
-  font-family: sans-serif;
+  font-family: "Sen";
   height: 35px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   font-size: 0.4rem;
   cursor: pointer;
+  box-shadow: 2px 2px 10px black;
 }
-.all_products:hover {
+.all_devs:hover {
   background-color: red;
   border: 2px solid red;
 }
@@ -359,7 +360,7 @@ header > h3 {
   margin-right: auto;
   box-shadow: 0px 0px 10px black;
 }
-.shop_container {
+.running_project {
   display: block;
   border: 2px solid blue;
   margin-top: 0.3rem;
@@ -368,11 +369,12 @@ header > h3 {
   background-color: #222;
   color: white;
 }
-.shop_local > h1 {
+.working_project > h1 {
   font-size: 0.5rem;
-  text-align: left;
+  text-align: center;
+  font-family: "Sen";
 }
-.shop_local > p {
+.working_project > p {
   font-size: 0.3rem;
   font-family: sans-serif;
   text-align: justify;
@@ -385,7 +387,7 @@ header > h3 {
   text-align: center;
 }
 @media screen and (min-width: 835px) {
-  .shop_container {
+  .running_project {
     display: block;
     width: 70vw;
     float: right;
@@ -398,17 +400,17 @@ header > h3 {
     display: block;
     width: 4rem;
     float: right;
-    margin-left: 15%;
+    margin-left: 10%;
     border: 2px solid black;
     box-shadow: 0px 0px 10px 10px white;
     border-radius: 14px;
     margin-top: 1.5rem;
     height: 65%;
   }
-  .shop_local > h1 {
+  .working_project > h1 {
     text-align: center;
   }
-  .shop_local > p {
+  .working_project > p {
     font-size: 0.3rem;
     margin-left: 4rem;
     margin-right: 0.9rem;
