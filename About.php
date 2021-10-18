@@ -4,9 +4,10 @@ include "Include/Header.php";
 
 <div class="green">
     <img class="greenleaf" src="/IMAGES/GreeenLeaf.jpg">
-    <h5>Your Adventure Awaits</h5>
-    <p>Acme Outdoors has everything you need to help you get started today. Check out our wonderful collection of gear that will make your next adventure complete.</p>
-    <input class="shop_Merch" type="button" value="Shop Merch">
+    <h5>Your Skills are Here.</h5>
+    <p>People don't care about what you say, they care about what you build.</p>
+    <p> Bad programmers worry about the code. Good programmers worry about data structures and their relationships.</p>
+    <input class="shop_Merch" type="button" value="Skills Of Legend Devs.">
     <div class="business">
         <h4 class="Main_outdoor">Why Acme Outdoors?</h4>
         <h6 class="warrenty">We’re the best in the business.</h6>

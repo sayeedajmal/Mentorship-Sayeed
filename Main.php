@@ -65,7 +65,7 @@ include "Include/Header.php";
                 <input type="button" value="Connect" />
             </div>
         </div>
-        <input class="all_devs" type="button" value="Wanna More Developers" />
+        <input class="all_devs" type="button" value="Legends Are Here!" />
         <img class="my_pic" src="/IMAGES/sayeed.png">
         <div class="running_project">
             <div class="working_project">

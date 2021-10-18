@@ -43,7 +43,6 @@
                         <li><a href="/About.php">About</a></li>
                         <li>Data</li>
                         <li><a href="/contact.php">Contact</a></li>
-                        <li>Shop</li>
                     </ul>
                 </div>
             </div>
@@ -52,7 +51,6 @@
         <div class="links">
             <a href="/Main.php">Home</a>
             <a href="/About.php">About</a>
-            <a href="/Data.php">Data</a>
             <a href="/Shop.php">Shop</a>
             <a href="/contact.php">Contact</a>
         </div>

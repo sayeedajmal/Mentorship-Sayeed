@@ -246,7 +246,6 @@ header > h3 {
   display: block;
   margin-top: -2%;
   margin-bottom: 20px;
-  border-radius: 10px;
   width: 2rem;
   height: 30px;
   cursor: pointer;
@@ -300,7 +299,7 @@ header > h3 {
     margin-left: 2%;
   }
   .devs_list > h2 {
-    margin-top: -6%;
+    margin-top: -0.8rem;
   }
 
   /* ================================ */
