@@ -15,32 +15,39 @@ include "Include/Header.php";
         </div>
 
         <div class="center">
-            <div class="first_application">
-                <h1>01</h1>
-                <p>BANKING SYSTEM</p>
-                <i class="far fa-circle" id="circle"></i>
 
-            </div>
-            <div class="second_application">
-                <h1>02</h1>
-                <p>BIODATA</p>
-                <i class="far fa-heart" id="circle"></i>
+            <a href="">
+                <div class="first_application">
+                    <h1>01</h1>
+                    <p>BANKING SYSTEM</p>
+                    <i class="far fa-circle" id="circle"></i>
+                </div>
+            </a>
 
-            </div>
-            <div class="third_application">
-                <h1>03</h1>
-                <p>PERFECTION JAVA</p>
-                <i class="far fa-square" id="circle"></i>
+            <a href="">
+                <div class="second_application">
+                    <h1>02</h1>
+                    <p>BIODATA</p>
+                    <i class="far fa-heart" id="circle"></i>
+                </div>
+            </a>
 
-            </div>
-
+            <a href="">
+                <div class="third_application">
+                    <h1>03</h1>
+                    <p>PERFECTION JAVA</p>
+                    <i class="far fa-square" id="circle"></i>
+                </div>
+            </a>
         </div>
 
         <div class="gitback">
             <img src="/IMAGES/gitback.png" />
             <h1>You Can Contribute in My Project.</h1>
             <h4>Genius Developers Contribute in Projects. Because Contributing In Projects Make You Perfect. .</h4>
-            <input type="button" value="Connect With Me" />
+            <a style="text-decoration: none;" href="https://sayeedajmal.github.io/cards/">
+                <input type="button" value="Connect With Me" />
+            </a>
         </div>
         <div class="devs_list">
             <h5>Developer's List</h5>
@@ -48,21 +55,27 @@ include "Include/Header.php";
         </div>
         <div class="devs">
             <div class="devs_information">
-                <img src="/IMAGES/coat.png">
+                <img src="/IMAGES/avtar.jpg">
                 <h4>Sayeed Ajmal</h4>
-                <input type="button" value="Connect" />
+                <a style="text-decoration: none;" href="https://github.com/sayeedajmal">
+                    <input type="button" value="Connect" />
+                </a>
             </div>
 
             <div class="devs_information">
                 <img src="/IMAGES/geans.jpg">
                 <h4>Hansy Gill</h4>
-                <input type="button" value="Connect" />
+                <a style="text-decoration: none;" href="">
+                    <input type="button" value="Connect" />
+                </a>
             </div>
 
             <div class="devs_information">
                 <img src="/IMAGES/white.png">
                 <h4>Md Imdadullah</h4>
-                <input type="button" value="Connect" />
+                <a style="text-decoration: none;" href="">
+                    <input type="button" value="Connect" />
+                </a>
             </div>
         </div>
         <input class="all_devs" type="button" value="Legends Are Here!" />
