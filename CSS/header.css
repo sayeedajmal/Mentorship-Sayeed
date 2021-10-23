@@ -41,11 +41,10 @@ header {
   opacity: 0;
   width: 100vw;
   color: white;
-  transform: scale(0.3);
+  transform: scale(0);
   transform-origin: top right;
-  transition: transform 0.4s, opacity 0.2s;
+  transition: transform 0.8s, opacity 0.2s;
   display: block;
-  height: 100vh;
   text-align: center;
   left: 0rem;
 }
@@ -59,7 +58,7 @@ header {
   color: white;
   font-size: 1rem;
   padding-bottom: 0.5rem;
-  font-family: 'Sen';
+  font-family: "Sen";
 }
 
 .mobile_navbar_dropdown > ul > li > a:visited {
@@ -67,6 +66,7 @@ header {
 }
 .mobile_navbar_item:hover .mobile_navbar_dropdown {
   opacity: 1;
+  height: 100vh;
   transform: scale(1);
 }
 /* ==============================END OF MOBILE NAVBAR============================== */
@@ -127,7 +127,7 @@ header {
 .avtar {
   border-radius: 50%;
   width: auto;
-  margin-top: 3px;
+  margin-top: 0.2rem;
   height: 45px;
   position: absolute;
   left: 15px;

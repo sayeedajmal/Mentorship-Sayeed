@@ -37,7 +37,7 @@ footer {
 }
 
 .mention {
-  text-decoration: none;
+  font-family: "Sen";
   color: white;
   font-size: 0.3rem;
   text-align: center;
@@ -64,7 +64,6 @@ footer {
     text-align: center;
   }
   .mention {
-    text-decoration: none;
     color: white;
     font-size: 0.3rem;
     text-align: center;

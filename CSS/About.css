@@ -118,7 +118,7 @@
     color: white;
     border: 2px solid white;
     border-radius: 20px;
-    transition: background-color 0.8s;
+    transition: background-color 1s;
     transform: scale(1.2);
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;

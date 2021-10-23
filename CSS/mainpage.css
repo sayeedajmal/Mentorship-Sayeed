@@ -65,6 +65,7 @@ header > h3 {
   margin-left: 0.5rem;
   margin-top: -0.5rem;
   display: block;
+  text-shadow: 0px 0px 20px blue;
 }
 .center {
   display: block;
@@ -110,6 +111,8 @@ header > h3 {
     border: 2px solid black;
     margin-left: 1.5rem;
     margin-bottom: 1rem;
+    /* hovering with zoom */
+    transition: transform 1s;
   }
   .first_application > p,
   .second_application > p,
@@ -133,6 +136,9 @@ header > h3 {
     background-color: black;
     border-radius: 20px;
     box-shadow: 0px 0px 20px blue;
+    /* hover zoom */
+    transition: backgound-color 0.8s;
+    transform: scale(1.2);
   }
   #circle {
     position: absolute;
@@ -294,6 +300,7 @@ header > h3 {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 0px 10px black;
+  z-index: 1;
 }
 .running_project {
   display: block;
@@ -301,8 +308,9 @@ header > h3 {
   margin-top: 0.3rem;
   margin-left: auto;
   margin-right: auto;
-  background-color: #222;
+  background-color: black;
   color: white;
+  opacity: 0.8;
 }
 .working_project > h1 {
   font-size: 0.5rem;
