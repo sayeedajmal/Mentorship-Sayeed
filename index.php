@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | Sayeed's MentorShip</title>
     <link rel="stylesheet" href="/CSS/login.css" type="text/css">
+    <link rel="icon" href="/IMAGES/logo.png" type="image/x-icon">
 </head>
 
 <body>
