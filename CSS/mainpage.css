@@ -409,7 +409,7 @@ header > h3 {
   .my_pic {
     position: absolute;
     display: block;
-    width: 4rem;
+    width: auto;
     float: right;
     margin-left: 10%;
     border: 2px solid black;
