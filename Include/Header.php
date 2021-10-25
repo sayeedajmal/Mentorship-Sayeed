@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT's My Blog</title>
+    <title>MENTORSHIP</title>
 
     <link rel="stylesheet" type="text/css" href="/CSS/header.css">
     <link rel="stylesheet" type="text/css" href="/CSS/mainpage.css">
@@ -46,7 +46,7 @@
         <div class="links">
             <a href="/Main.php">Home</a>
             <a href="/About.php">About</a>
-            <a href="/Shop.php">Shop</a>
+            <a href="">Shop</a>
             <a href="/contact.php">Contact</a>
         </div>
 

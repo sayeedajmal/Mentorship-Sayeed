@@ -97,7 +97,7 @@ header > h3 {
   border-radius: 20px;
 }
 
-/* HEADER IMAGE AND PRODUCTS  */
+/*DESKTOP VIEW   */
 @media screen and (min-width: 835px) {
   header > img {
     height: 60vh;
@@ -291,7 +291,6 @@ header > h3 {
   background-color: red;
   border: 2px solid red;
 }
-/* LOCAL SHOP WIHT PIC */
 .my_pic {
   display: block;
   margin-top: 1rem;
