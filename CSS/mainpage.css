@@ -405,16 +405,21 @@ header > h3 {
     border-radius: 20px;
     height: 9rem;
   }
+  .working_project > img {
+    width: 70vw;
+    height: 9rem;
+    border-radius: 30px;
+  }
   .my_pic {
     position: absolute;
     display: block;
     width: auto;
     float: right;
-    margin-left: 10%;
+    margin-left: 1%;
     border: 2px solid black;
     box-shadow: 0px 0px 10px 10px white;
     border-radius: 14px;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     height: 65%;
   }
   .working_project > h1 {

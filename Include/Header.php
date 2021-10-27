@@ -18,7 +18,7 @@
     <div class="nevbar text-primary">
         <!-- AVTAR -->
         <div>
-            <img src="/IMAGES/avtar.jpg" class="avtar">
+            <img src="/IMAGES/Sayeed1.jpg" class="avtar">
         </div>
         <!-- SAYEED TEXT -->
         <a href="/Main.php">
