@@ -302,14 +302,10 @@ header > h3 {
   z-index: 1;
 }
 .running_project {
-  display: block;
-  border: 2px solid blue;
   margin-top: 0.3rem;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: black;
-  color: white;
-  opacity: 0.8;
+}
+.working_project>img{
+  width: 100%;   
 }
 .working_project > h1 {
   font-size: 0.5rem;
