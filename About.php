@@ -30,7 +30,7 @@ include "Include/Header.php";
         </div>
         <div class="about_column">
             <img class="icons" src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84ba313e8232516a7da902_chat-alt.svg">
-            <h6 class="Programing_skills">Best In Service </h6>
+            <h6 class="Programing_skills">Best In Services </h6>
             <h4 class="discriptions">Will Try! to Replace Here! Some thing!</h4>
         </div>
 
