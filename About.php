@@ -21,7 +21,7 @@ include "Include/Header.php";
         <div class="about_column">
             <img class="icons" src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84ba18359d4c7fc8ba04d2_cart.svg">
             <h6 class="Programing_skills">Styling Web Pages</h6>
-            <h4 class="discriptions">Will Try! to Replace Here! Some thing!</h4>
+            <h4 class="discriptions">Try to Replace Here! Some thing!</h4>
         </div>
         <div class="about_column">
             <img class="icons" src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84ba26d07102b2bcc7e4fb_transport.svg">
