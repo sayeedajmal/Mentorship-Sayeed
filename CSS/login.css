@@ -20,7 +20,7 @@ section > img {
 section {
   border: 2px solid white;
   width: 6rem;
-  height: 70vh;
+  height: 7rem;
   display: block;
   position: relative;
   margin-left: auto;
@@ -69,7 +69,7 @@ section > input {
 .submit {
   border: 2px solid rgb(238, 53, 53);
   font-size: 0.6rem;
-  top: 1.5rem;
+  top: 0.5rem;
 }
 @media screen and (max-width: 835px) {
   html {
@@ -113,6 +113,6 @@ section > input {
     width: 4rem;
     height: 1rem;
     font-size: 0.8rem;
-    top: 2rem;
+    top: 3rem;
   }
 }

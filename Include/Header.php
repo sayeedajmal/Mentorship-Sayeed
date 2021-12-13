@@ -20,7 +20,7 @@
             <img src="/IMAGES/Sayeed1.jpg" class="avtar">
         </div>
         <!-- SAYEED TEXT -->
-        <a href="/Main.php">
+        <a href="/index.php">
             <svg>
                 <text y="80%">SAYEED</text>
             </svg>
@@ -33,7 +33,7 @@
                 <div class="mobile_navbar_dropdown">
 
                     <ul>
-                        <li><a href="/Main.php">Home</a></li>
+                        <li><a href="/index.php">Home</a></li>
                         <li><a href="/About.php">About</a></li>
                         <li>Data</li>
                         <li><a href="/contact.php">Contact</a></li>
@@ -43,10 +43,11 @@
         </div>
         <!-- DESKTOP NAVIGATION BAR -->
         <div class="links">
-            <a href="/Main.php">Home</a>
+            <a href="/index.php">Home</a>
             <a href="/About.php">About</a>
-            <a href="">Shop</a>
+            <a href="/shop.php">Shop</a>
             <a href="/contact.php">Contact</a>
+            <a href="/login.php">Login</a>
         </div>
 
     </div>
