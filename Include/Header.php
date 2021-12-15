@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title><?php echo $title;?></title>
+    <title><?php echo $title; ?></title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 
-<body class="body">
+<body>
     <div class="nevbar text-primary">
         <!-- AVTAR -->
         <div>
@@ -47,7 +47,7 @@
             <a href="/About.php">About</a>
             <a href="/shop.php">Shop</a>
             <a href="/contact.php">Contact</a>
-            <a href="/login.php">Login</a>
+            <a href="/Signup.php">SignUp</a>
         </div>
 
     </div>
